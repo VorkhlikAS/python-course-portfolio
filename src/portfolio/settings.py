@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     # созданные приложения
+    "creator.apps.CreatorConfig",
     "jobs.apps.JobsConfig",
     "blog.apps.BlogConfig",
     # установленные приложения
